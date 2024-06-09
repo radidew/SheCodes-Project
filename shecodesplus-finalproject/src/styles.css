@@ -1,0 +1,89 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgba(138, 199, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a {
+  color: #00a2ff;
+}
+.weather {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px #41326414;
+  color: #878787;
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+strong {
+  color: #182a73;
+  font-weight: 400;
+}
+
+h1,
+.current-temp {
+  color: black;
+}
+.current-temp {
+  font-size: 80px;
+  font-weight: 700;
+}
+.sunIcon {
+  font-size: 40px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  text-align: center;
+}
+
+input {
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 10px;
+}
+input.input-bar {
+  width: 100%;
+  box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+input.search-button {
+  background-color: #00a2ff;
+  color: white;
+  margin-left: 10px;
+  transition: all 200ms ease;
+}
+.search-button:hover {
+  background: #182a73;
+  cursor: pointer;
+}
+
+.projected-forcast {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projected-forcast li {
+  display: block;
+  margin: 10px;
+}

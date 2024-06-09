@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="weather">
+      <header>
+        <form class="search-bar" id="search-bar">
+          <input
+            type="text"
+            placeholder="Enter a city..."
+            id="city-name-input"
+            class="input-bar"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 id="current-city">Dover</h1>
+            <p>
+              <span id="day-and-time">Sunday 7:19PM</span>, Sunny
+              <br />
+              Humidity: <strong>56%</strong> , Wind: <strong>2mph</strong>
+            </p>
+          </div>
+          <div class="current-temp">
+            <span class="sunIcon">☀️</span>
+            77°F
+          </div>
+        </div>
+
+        <div>
+          <ul class="projected-forcast">
+            <li>Sun ☀️<br /><strong>77°F</strong> - 82°F</li>
+            <li>Mon ☀️<br /><strong>77°F</strong> - 82°F</li>
+            <li>Tue ☀️<br /><strong>77°F</strong> - 82°F</li>
+            <li>Wed ☀️<br /><strong>77°F</strong> - 82°F</li>
+            <li>Thu ☀️<br /><strong>77°F</strong> - 82°F</li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Rachel Hannah</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
